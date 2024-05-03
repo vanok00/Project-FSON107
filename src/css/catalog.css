@@ -1,7 +1,12 @@
 .catalog {
-    padding: 60px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #FBFBFB;
 }
-.container {
+.catalog-container {
+    /*max-width: 375px;*/
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .catalog-title {
     color: #0C0C0C;
@@ -10,29 +15,25 @@
     line-height: 32px;
     letter-spacing: -0.02em;
     text-align: left;
-    padding-left: 20px;
     margin-bottom: 24px;
 
 }
 .catalog-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     row-gap: 20px;
 }
 .catalog-item {
     border-radius: 30px;
     background-color: #F3F3F3;
-    width: 335px;
-    height: 364px;
-    margin-right: 20px;
-    margin-left: 20px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+   padding: 24px 28px;
 }
-.catalog-item:hover .seller-cover-text {
-    transform: translateY(0);
-  }
-.catalog-wrap {
-}
-.img {
+
+
+.catalog-img {
+    display: block;
+    margin-bottom: 10px;
 }
 .subtitle {
     border: 1px;
@@ -55,4 +56,65 @@
     letter-spacing: -0.02em;
     color:  rgba(12, 12, 12, 0.5);
 
+}
+.catalog-item:nth-child(n+5) {
+    display: none;   
+}
+.clock-bt {
+    min-width: 160px;
+    height: 48px;
+    border-radius: 16px;
+    background-color: #3350E9;
+    display: block;
+    border: none;
+    cursor: pointer;
+    color: #FBFBFB;
+    margin: 40px auto 0 auto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+    .catalog-container {
+        padding: 0 32px;
+    }
+   
+    .catalog-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px 16px;
+    }
+    
+    .catalog-item {
+     width: calc((100% - 16px) / 2); 
+    }
+    
+    .catalog-item:nth-child(n+5) {
+        display: block;   
+    }
+
+    .clock-bt {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+      width: 1280px;
+    }
+    .catalog-container {
+        padding: 0 65px;
+    }
+   
+    .catalog-list {
+        gap: 32px 23px;
+    }
+    
+    .catalog-item {
+     width: calc((100% - 46px) / 3); 
+    }
 }
