@@ -339,4 +339,7 @@
                       .header-menu-open-btn {
                         display: none;
                       }
+                      .mob-menu {
+                        display: none;
+                      }
                     }
