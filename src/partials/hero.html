@@ -1,1 +1,44 @@
-<section></section>
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-tablet-container">
+      <div class="hero-title-container">
+        <h1 class="hero-title">
+          Welcome to our <span class="hero-span">collection</span> of premium
+          watches
+        </h1>
+        <p class="hero-text">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="hero-small-container">
+        <img
+          src="./images/project-hero2.png"
+          alt="Members of company"
+          class="hero-image-team"
+        />
+        <a href="#footer" class="hero-link">Scroll Down</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="./images/project-hero.jpg 1x, ./images/hero-back-2x.jpg 2x"
+        media="(min-width:1280px)"
+      />
+      <source
+        srcset="./images/hero-back-tab.jpg 1x, ./images/hero-tab-2x.jpg 2x"
+        media="(min-width:768px)"
+      />
+      <source
+        srcset="./images/hero-mob.jpg 1x, ./images/hero-mob-2x.jpg 2x"
+        media="(max-width:767px)"
+      />
+      <img
+        src="./images/hero-mob.jpg"
+        alt="Products of company"
+        class="hero-background"
+      />
+    </picture>
+  </div>
+</section>
