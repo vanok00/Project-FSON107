@@ -1,10 +1,7 @@
-
-.container-about-us {
-  background: #FBFBFB;
-}
 .about-us {
     padding-top: 30px;
     padding-bottom: 30px;
+    background: #FBFBFB;
 }
 
 .about-wrap {
@@ -54,7 +51,9 @@
 .about-btn-us:focus {
     background-color: #1f3cd4;
 }
-
+.about-image {
+    background: #FBFBFB;
+}
 @media screen and (min-width: 768px) {
     .about-us {
         padding-top: 40px;
