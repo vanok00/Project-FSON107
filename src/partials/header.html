@@ -1,0 +1,120 @@
+<header class="header">
+    <div class="container header-container">
+        <nav class="header-nav">
+            <a href="./index.html" class="header-nav-logo">watchcharm</a>
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a href="./index.html" class="header-menu-link underlin-menu-link">Home</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#about-us" class="header-menu-link">About Us</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#catalog" class="header-menu-link">Catalog</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#sale" class="header-menu-link">Sale</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#reviews" class="header-menu-link">Reviews</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="#contact-us" class="header-menu-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="header-icon-list">
+            <li class="header-icon-item">
+                <a href="https://www.facebook.com/goITclub/ " class="header-icon-linc">
+                    <svg class="header-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-icon-item">
+                <a href=" https://www.instagram.com/goitclub/" class="header-icon-linc">
+                    <svg class="header-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header-icon-item">
+                <a href=" https://www.youtube.com/c/GoIT" class="header-icon-linc">
+                    <svg class="header-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <button type="button" class="header-menu-open-btn">
+            <svg class="header-menu-icon-svg" width="34" height="34">
+                <use href="../images/icons/symbol-defs.svg#icon-menu"></use>
+            </svg>
+        </button>
+    </div>
+
+    <div class="mob-menu ">
+        <button type="button" class="mob-menu-btn">
+            <svg class="mob-btn-close-icon" width="20" height="20">
+                <use href="../images/icons/symbol-defs.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav class="mob-nav">
+            <ul class="mob-menu-list">
+                <li class="mob-menu-item">
+                    <a href="./index.html" class="mob-menu-link mob-underlin-menu-link">Home</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="#about-us" class="mob-menu-link">About Us</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="#catalog" class="mob-menu-link">Catalog</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="#sale" class="mob-menu-link">Sale</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="#reviews" class="mob-menu-link">Reviews</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a href="#contact-us" class="mob-menu-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="mob-icon-list">
+            <li class="mob-icon-item">
+                <a href="https://www.facebook.com/goITclub/ " class="mob-icon-linc">
+                    <svg class="mob-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-facebook"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mob-icon-item">
+                <a href=" https://www.instagram.com/goitclub/" class="mob-icon-linc">
+                    <svg class="mob-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mob-icon-item">
+                <a href=" https://www.youtube.com/c/GoIT" class="mob-icon-linc">
+                    <svg class="mob-icon-icon" width="20" height="20">
+                        <use href="../images/icons/symbol-defs.svg#icon-head-youtube"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+<script>
+    const button_open = document.querySelector('.header-menu-open-btn');
+    const button_close = document.querySelector('.mob-menu-btn');
+    const menu = document.querySelector('.mob-menu');
+
+    button_open.addEventListener('click', () => {
+        menu.classList.add('is-open');
+    });
+    button_close.addEventListener('click', () => {
+        menu.classList.remove('is-open');
+    });
+</script>
