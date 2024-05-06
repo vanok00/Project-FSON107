@@ -48,7 +48,7 @@
                     .mob-menu {
                       background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                           rgba(12, 12, 12, 0.92)),
-                        url(../images/head-images/mob-image-head-1x.jpg);
+                        url(../images/header-images/mob-image-head-1x.jpg);
                       background-repeat: no-repeat;
                       background-size: cover;
                       background-position: center;
@@ -74,7 +74,7 @@
                       .mob-menu {
                         background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                             rgba(12, 12, 12, 0.92)),
-                          url(../images/head-images/mob-image-head-2x.jpg);
+                          url(../images/header-images/mob-image-head-2x.jpg);
                       }
                     }
 
@@ -199,7 +199,7 @@
                       .mob-menu {
                         background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                             rgba(12, 12, 12, 0.92)),
-                          url(../images/head-images/tabl-image-head-1x.jpg);
+                          url(../images/header-images/tabl-image-head-1x.jpg);
                         height: 1024px;
                         width: 330px;
                         padding-top: 310px;
@@ -212,7 +212,7 @@
                         .mob-menu {
                           background-image: linear-gradient(rgba(12, 12, 12, 0.92),
                               rgba(12, 12, 12, 0.92)),
-                            url(../images/head-images/tabl-image-head-2x.jpg);
+                            url(../images/header-images/tabl-image-head-2x.jpg);
                         }
                       }
 
