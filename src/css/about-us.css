@@ -5,7 +5,7 @@
 
 .about-wrap {
     border-radius: 30px;
-    background: #f3f3f3;
+    background: #FBFBFB;
     padding: 40px 20px;
     margin-bottom: 20px;
 }
@@ -86,7 +86,6 @@
     }
 
     .container-about-us {
-        margin-left: 65px;
         display: flex;
         gap: 40px;
     }
@@ -100,7 +99,6 @@
     }
 
     .about-image {
-        margin-right: 65px;
         flex-shrink: 0;
     }
 }
