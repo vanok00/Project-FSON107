@@ -1,0 +1,240 @@
+.sale {
+  background-color: #fbfbfb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.sale-container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sale-title {
+  color: #0c0c0c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+  margin-bottom: 24px;
+}
+
+.sale-gallery {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.sale-gallery-mini {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 14px;
+  width: calc((100% - 3 * 5px) / 4);
+  border-radius: 16px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background-color: #f3f3f3;
+}
+
+.sale-image-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  background-color: #f3f3f3;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+
+.sale-card {
+  border-radius: 30px;
+  background-color: #3350e9;
+  padding: 48px 28px;
+}
+
+.sale-card-title {
+  color: #fbfbfb;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.48px;
+  margin-bottom: 10px;
+}
+
+.sale-card-number {
+  color: rgba(251, 251, 251, 0.50);
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 20px;
+}
+
+.sale-card-prices {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+.sale-card-discount {
+  color: #fbfbfb;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.32px;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.10);
+  padding: 8px 12px;
+}
+
+.sale-card-price {
+  color: rgba(251, 251, 251, 0.50);
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -0.24px;
+  text-decoration: line-through;
+}
+
+.sale-card-description {
+  color: rgba(251, 251, 251, 0.70);
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 28px;
+}
+
+.sale-card-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 400px;
+}
+
+.sale-card-filter {
+  display: flex;
+}
+
+.filter-link {
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(251, 251, 251, 0.20);
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-link:hover {
+  background-color: rgba(251, 251, 251, 0.10);
+}
+
+@media screen and (min-width: 768px) {
+  .sale {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .sale-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .sale-title {
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    margin-bottom: 40px;
+  }
+
+  .gallery-wrap {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+
+  .sale-gallery {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .sale-gallery-mini {
+    padding: 16px 18px;
+    width: 132px;
+    height: 132px;
+    border-radius: 20px;
+  }
+
+  .sale-image-block {
+    width: 100%;
+    border-radius: 50px;
+    margin-bottom: 0;
+  }
+
+  .sale-card {
+    border-radius: 50px;
+    padding: 60px;
+  }
+
+  .sale-card-title {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.64px;
+    max-width: 436px;
+  }
+
+  .sale-card-prices {
+    margin-bottom: 30px;
+  }
+
+  .sale-card-discount {
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    padding: 6px 12px;
+  }
+
+  .sale-card-description {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    margin-bottom: 40px;
+  }
+
+  .filter-link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sale-container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .sale-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  .gallery-wrap {
+    margin-bottom: 0;
+  }
+
+  .sale-image-block {
+    width: 428px;
+  }
+
+  .sale-card-title {
+    max-width: 389px;
+  }
+}
