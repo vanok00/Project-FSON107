@@ -1,0 +1,76 @@
+
+<section class="contact-us-section" id="contact-us">
+  <div class="contact-wrapper">
+    <a name="contact-us"></a>
+    <h2 class="contact-header">Contact Us</h2>
+    <div>
+      <form class="contact-form">
+        <p class="contact-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="contact-input name"
+          required
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="contact-input email"
+          required
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          name="tel"
+          id="tel"
+          class="contact-input tel"
+          required
+          placeholder="+380"
+        />
+        <textarea
+          name="user-comment"
+          id="user-comment"
+          placeholder="Comment"
+          required
+          class="contact-textarea"
+        ></textarea
+        ><button type="submit" class="contact-button">Send</button>
+      </form>
+      <picture>
+        <source
+          srcset="
+            ./images/watchers-desktop-1x.jpg 1x,
+            ./images/watchers-desktop-2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="
+            ./images/watchers-tab-1x.jpg 1x,
+            ./images/watchers-tab-2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/watchers-tel-1x.jpg 1x,
+            ./images/watchers-tel-2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img
+          class="our-portfolio-img"
+          src="./images/watchers-tab-2x.jpg"
+          alt="Bank-app"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
