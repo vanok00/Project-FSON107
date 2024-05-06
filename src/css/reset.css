@@ -65,24 +65,24 @@ img {
 
 .container {
   max-width: 375px;
-  padding: 20px 0;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
-@media screen (min-width: 320px) and (max-width: 374px) {
-  .container{
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
     width: 100%;
   }
-  }
+}
 
-@media screen and (min-width: 768px)  {
+@media screen and (min-width: 768px) {
   .container {
     padding: 0 32px;
     max-width: 768px;
   }
 }
 
-@media screen and (min-width: 1280px)  {
+@media screen and (min-width: 1280px) {
   .container {
     padding: 0 65px;
     max-width: 1280px;
