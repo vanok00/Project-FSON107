@@ -1,0 +1,222 @@
+.hero-container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 60px;
+}
+
+.hero-title {
+  width: 335px;
+  font-family: Gilroy;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: -0.8px;
+  color: #0c0c0c;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.hero-span {
+  color: #3350e9;
+}
+
+.hero-text {
+  width: 335px;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  color: rgba(12, 12, 12, 0.7);
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.hero-image-team {
+  width: 108px;
+  height: 44px;
+}
+
+.hero-link {
+  color: #0c0c0c;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  text-decoration-line: underline;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  color: #3350e9;
+}
+
+.hero-background {
+  width: 335px;
+  height: 366px;
+  border-radius: 30px;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 12, 12, 0.2) 0%,
+      rgba(12, 12, 12, 0.2) 100%
+    ),
+    url(hero-mob.jpg) lightgray -162.223px -2.385px / 197.087% 101.471%
+      no-repeat;
+}
+
+.hero-small-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 155px;
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin-top: 80px;
+  }
+
+  .hero-title {
+    width: 557px;
+    font-size: 70px;
+    font-style: normal;
+    line-height: 60px;
+    letter-spacing: -1.4px;
+  }
+
+  .hero-title-container {
+    display: flex;
+    width: 557px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-text {
+    width: 480px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+
+  .hero-small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 180px;
+  }
+
+  .hero-tablet-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    margin-bottom: 40px;
+  }
+
+  .hero-image-team {
+    width: 136px;
+    height: 60px;
+  }
+
+  .hero-link {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+  }
+
+  .hero-background {
+    width: 704px;
+    height: 520px;
+    border-radius: 50px;
+    background: linear-gradient(
+        0deg,
+        rgba(12, 12, 12, 0.2) 0%,
+        rgba(12, 12, 12, 0.2) 100%
+      ),
+      url(../images/hero-back-tab.jpg) lightgray -162px -14.918px / 144.808%
+        110.277% no-repeat;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    max-width: 1280px;
+    padding: 0 65px;
+    margin-top: 80px;
+  }
+
+  .hero-tablet-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 407px;
+    margin-bottom: 40px;
+  }
+
+  .hero-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-small-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 189px;
+    padding-left: 40px;
+  }
+
+  .hero-title {
+    width: 597px;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 63px;
+    letter-spacing: -1.44px;
+  }
+
+  .hero-text {
+    width: 480px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+
+  .hero-image-team {
+    width: 146px;
+    height: 60px;
+  }
+
+  .hero-link {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    text-decoration-line: underline;
+  }
+
+  .hero-background {
+    width: 1150px;
+    height: 500px;
+    border-radius: 50px;
+    background: linear-gradient(
+        0deg,
+        rgba(12, 12, 12, 0.2) 0%,
+        rgba(12, 12, 12, 0.2) 100%
+      ),
+      url(../images/project-hero.jpg) lightgray -5.08px -89.421px / 102.355%
+        132.421% no-repeat;
+  }
+}
