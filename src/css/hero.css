@@ -1,4 +1,15 @@
 .hero-container {
+
+  display: flex;
+  padding: 60px 20px 0px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.hero-title {
+  width: 335px;
+
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
@@ -6,6 +17,7 @@
 }
 
 .hero-title {
+
   font-family: Gilroy;
   font-size: 40px;
   font-style: normal;
@@ -14,7 +26,10 @@
   letter-spacing: -0.8px;
   color: #0c0c0c;
   margin: 0;
+
+
   margin-bottom: 20px;
+
 }
 
 .hero-span {
@@ -22,6 +37,10 @@
 }
 
 .hero-text {
+
+  width: 335px;
+=======
+
   font-family: Gilroy;
   font-size: 14px;
   font-style: normal;
@@ -76,6 +95,12 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
+
+    display: flex;
+    padding: 80px 32px 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
     max-width: 768px;
     padding: 0 32px;
     margin-top: 80px;
@@ -118,6 +143,7 @@
     align-items: flex-start;
     gap: 11px;
     margin-bottom: 40px;
+
   }
 
   .hero-image-team {
@@ -148,6 +174,12 @@
 
 @media screen and (min-width: 1280px) {
   .hero-container {
+
+    display: flex;
+    padding: 80px 65px 0px 65px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
     max-width: 1280px;
     padding: 0 65px;
     margin-top: 80px;
