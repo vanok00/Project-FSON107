@@ -1,3 +1,7 @@
+
+.container-about-us {
+  background: #FBFBFB;
+}
 .about-us {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -86,7 +90,7 @@
     }
 
     .container-about-us {
-        margin-left: 65px;
+        background: #FBFBFB;
         display: flex;
         gap: 40px;
     }
@@ -100,7 +104,6 @@
     }
 
     .about-image {
-        margin-right: 65px;
         flex-shrink: 0;
     }
 }
