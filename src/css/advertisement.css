@@ -1,0 +1,124 @@
+.advert {
+  background-color: #fbfbfb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.advert-container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.advert-block {
+  background-color: #0c0c0c;
+  background-image: url(./../images/advertisement-images/advert-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 60px 28px;
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+  .advert-block {
+    background-image: url(./../images/advertisement-images/advert-bg-mob-2x.png);
+  }
+}
+
+.advert-text {
+  color: #FBFBFB;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+  margin-bottom: 28px;
+}
+
+.advert-accent {
+  color: rgba(251, 251, 251, 0.50);
+}
+
+.advert-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 160px;
+  height: 48px;
+  color: #fbfbfb;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  transition-property: background-color color;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.advert-link:hover,
+.advert-link:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media screen and (min-width: 768px) {
+  .advert {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .advert-container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .advert-block {
+    padding: 80px 64px;
+    background-image: url(./../images/advertisement-images/advert-bg-tab.png);
+  }
+  
+  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+    .advert-block {
+      background-image: url(./../images/advertisement-images/advert-bg-tab-2x.png);
+    }
+  }
+
+  .advert-text {
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advert {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .advert-container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .advert-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+    background-image: url(./../images/advertisement-images/advert-bg.png);
+  }
+  
+  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2) {
+    .advert-block {
+      background-image: url(./../images/advertisement-images/advert-bg-2x.png);
+    }
+  }
+
+  .advert-text {
+    max-width: 690px;
+    margin-bottom: 0;
+  }
+}
