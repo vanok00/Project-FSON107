@@ -13,6 +13,7 @@
   padding-bottom: 28px;
   padding-left: 28px;
   border-radius: 30px;
+  max-width: 335px;
 }
 
 .footer-sic {
@@ -163,6 +164,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  
+  .footer-container {
+    max-width: 704px;
+  }
+
   .container-icon-icon {
     display: flex;
     justify-content: space-between;
@@ -229,6 +235,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+ 
+.footer-container {
+    max-width: 1216px;
+  }
+ 
   .footer-text-item {
     display: none;
   }
