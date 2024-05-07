@@ -2,6 +2,7 @@
   margin: 0 auto;
   max-width: 335px;
   margin-bottom: 60px;
+  padding-top: 60px;
 }
 
 .hero-first-wrapper {
@@ -79,6 +80,7 @@
   .hero-container {
     max-width: 704px;
     margin-bottom: 80px;
+    padding-top: 80px;
   }
 
   .hero-first-wrapper {
