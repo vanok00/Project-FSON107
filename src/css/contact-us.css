@@ -128,6 +128,10 @@
   outline: transparent;
 }
 
+.our-portfolio-img {
+  border-radius: 30px;
+}
+
 .contact-button:hover,
 .contact-button:focus,
 .contact-button:active {
@@ -137,6 +141,10 @@
 @media screen and (min-width: 768px) {
   .contact-us-section {
     padding: 40px 0;
+  }
+
+  .our-portfolio-img {
+    border-radius: 50px;
   }
 
   .contact-wrapper {
@@ -219,6 +227,10 @@
 @media screen and (min-width: 1280px) {
   .contact-us-section {
     padding: 50px 0px;
+  }
+
+  .our-portfolio-img {
+    border-radius: 50px;
   }
 
   .contact-wrapper {
