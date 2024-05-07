@@ -147,7 +147,7 @@
 
 .footer-container-item {
   display: flex;
-  border-bottom: 1px solid #fbfbfb;
+  border-bottom: 1px solid rgba(251, 251, 251, 0.1);
   padding-bottom: 24px;
 }
 
