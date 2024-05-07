@@ -117,7 +117,7 @@
 
   .hero-team-picture {
     width: 136px;
-    height: 60px;
+    height: auto;
   }
 
   .hero-scroll-link {
